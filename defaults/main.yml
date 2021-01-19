@@ -1,0 +1,4 @@
+---
+# defaults file for sysctl
+sysctl_params: {}
+sysctl_file: '/etc/sysctl.d/98-sysctl.conf'

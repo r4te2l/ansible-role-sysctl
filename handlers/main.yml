@@ -1,0 +1,6 @@
+---
+# handlers file for sysctl
+- name: 'reload sysctl'
+  command: "sysctl --system"
+  listen: 'reload sysctl'
+  become: true

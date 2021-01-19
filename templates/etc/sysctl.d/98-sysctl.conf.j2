@@ -1,0 +1,4 @@
+{{ ansible_managed | comment }}
+{% for k,v in sysctl_params | dictsort -%}
+{{ k }}={{ v }}
+{% endfor -%}
